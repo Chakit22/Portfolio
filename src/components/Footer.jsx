@@ -1,8 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
-import { HiMail } from "react-icons/hi";
-import { LINKEDIN_URL, GITHUB_URL, LEETCODE_URL, EMAIL_ID } from "../data/data";
+import { LINKEDIN_URL, GITHUB_URL, LEETCODE_URL } from "../data/data";
 
 const Footer = () => {
   return (

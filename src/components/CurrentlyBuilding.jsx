@@ -1,7 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FiArrowUpRight } from "react-icons/fi";
-
 const CurrentlyBuilding = () => {
   return (
     <div className="w-full bg-surface py-24 relative">

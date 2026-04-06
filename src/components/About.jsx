@@ -2,8 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { aboutPageDescription } from "../data/data";
 
-const stats = [];
-
 const About = () => {
   return (
     <div

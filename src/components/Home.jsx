@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 import {
   homePageName,
   homePageDescription,
-  homePageTitle,
   LINKEDIN_URL,
   GITHUB_URL,
   LEETCODE_URL,
