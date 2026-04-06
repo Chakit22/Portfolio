@@ -39,19 +39,23 @@ const Projects = () => {
             viewport={{ once: true }}
             className="mt-12 glass-card rounded-2xl overflow-hidden"
           >
-            <div className="grid md:grid-cols-2 gap-0">
+            <div className={`grid ${project.image ? "md:grid-cols-2" : ""} gap-0`}>
               {/* Image */}
-              <div className="relative h-64 md:h-auto overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.name}
-                  className="w-full h-full object-cover opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-700"
-                />
-                <div className="absolute inset-0 bg-gradient-to-r from-surface/80 to-transparent md:hidden" />
-              </div>
+              {project.image ? (
+                <div className="relative h-64 md:h-auto overflow-hidden">
+                  <img
+                    src={project.image}
+                    alt={project.name}
+                    className="w-full h-full object-cover opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-r from-surface/80 to-transparent md:hidden" />
+                </div>
+              ) : (
+                <div className="absolute top-0 right-0 w-40 h-40 bg-accent/5 rounded-full blur-3xl pointer-events-none" />
+              )}
 
               {/* Content */}
-              <div className="p-8 flex flex-col justify-center">
+              <div className={`p-8 flex flex-col justify-center ${!project.image ? "py-12" : ""}`}>
                 <span className="text-accent font-mono text-xs uppercase tracking-widest mb-3">
                   Featured Project
                 </span>
