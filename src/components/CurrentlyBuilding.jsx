@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+
 const CurrentlyBuilding = () => {
   return (
     <div className="w-full bg-surface py-24 relative">
@@ -44,17 +45,17 @@ const CurrentlyBuilding = () => {
             </div>
 
             <h3 className="text-2xl sm:text-3xl text-white font-bold mb-3">
-              Atlas — AI Travel Companion
+              Atlas — AI Travel Planner
             </h3>
             <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mb-6">
-              Not just another travel planner — Atlas is an AI companion that understands your
-              preferences, adapts in real-time, and makes every trip feel personal. Think of it
-              as a friend who's been everywhere and knows exactly what you'd love.
+              A multi-agent travel assistant powered by LangGraph and Gemini 2.5 Flash.
+              Integrates SerpApi, OpenWeatherMap, and AviationStack for live data.
+              Ships as a streaming TypeScript CLI with session persistence and guardrails.
             </p>
 
             {/* Tech being used */}
             <div className="flex flex-wrap gap-2 mb-8">
-              {["RAG", "LangGraph", "LLMs", "Python", "Vector DBs"].map(
+              {["LangGraph", "Gemini 2.5 Flash", "TypeScript", "SerpApi", "OpenWeatherMap", "AviationStack"].map(
                 (tech, i) => (
                   <span
                     key={i}

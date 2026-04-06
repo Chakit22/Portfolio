@@ -9,6 +9,21 @@ export const projects = [
     featured: true,
   },
   {
+    name: "StaffIQ – Tutor Assignment Platform",
+    demo: "https://teach-team.vercel.app",
+    github: "https://github.com/Chakit22/TeachTeam",
+    description:
+      "Full-stack tutor assignment platform for RMIT with role-based auth, JWT, Gemini AI for candidate ranking and resume insights, and a GraphQL admin API with reporting dashboards.",
+    featured: true,
+  },
+  {
+    name: "Medico-Legal RAG System",
+    github: "https://github.com/Chakit22/medico-legal-rag",
+    description:
+      "RAG pipeline for medico-legal reports using LangGraph and FastAPI. Features a query router selecting between three retrieval strategies, reducing irrelevant data retrieval by 75%.",
+    featured: true,
+  },
+  {
     name: "Paper Trading App",
     demo: "https://stocks-chakit22-3-ehog.vercel.app/",
     github: "https://github.com/mac-projects-assessment/stocks-Chakit22-3",
@@ -16,8 +31,8 @@ export const projects = [
   },
   {
     name: "Portfolio",
-    demo: "https://portfolio-self-beta-33.vercel.app/",
-    github: "https://github.com/ChakitBhandari/Portfolio",
+    demo: "https://portfolio-chakit22s-projects.vercel.app",
+    github: "https://github.com/Chakit22/Portfolio",
     image: "./assets/portfolio.png",
   },
   {
