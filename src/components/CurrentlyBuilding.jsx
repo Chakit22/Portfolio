@@ -45,12 +45,13 @@ const CurrentlyBuilding = () => {
             </div>
 
             <h3 className="text-2xl sm:text-3xl text-white font-bold mb-3">
-              Atlas — AI Travel Planner
+              Atlas — AI Travel Companion
             </h3>
             <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mb-6">
-              A multi-agent travel assistant powered by LangGraph and Gemini 2.5 Flash.
-              Integrates SerpApi, OpenWeatherMap, and AviationStack for live data.
-              Ships as a streaming TypeScript CLI with session persistence and guardrails.
+              A multi-agent AI travel companion powered by LangGraph and Gemini 2.5 Flash.
+              Not just a planner — Atlas understands your preferences, adapts in real-time, and
+              makes every trip feel personal. Integrates live data from SerpApi, OpenWeatherMap,
+              and AviationStack, with session persistence and guardrails.
             </p>
 
             {/* Tech being used */}

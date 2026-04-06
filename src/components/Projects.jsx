@@ -39,8 +39,8 @@ const Projects = () => {
             viewport={{ once: true }}
             className="mt-12 glass-card rounded-2xl overflow-hidden"
           >
-            <div className={`grid ${project.image ? "md:grid-cols-2" : ""} gap-0`}>
-              {/* Image */}
+            <div className="grid md:grid-cols-2 gap-0">
+              {/* Image or Placeholder */}
               {project.image ? (
                 <div className="relative h-64 md:h-auto overflow-hidden">
                   <img
@@ -51,11 +51,30 @@ const Projects = () => {
                   <div className="absolute inset-0 bg-gradient-to-r from-surface/80 to-transparent md:hidden" />
                 </div>
               ) : (
-                <div className="absolute top-0 right-0 w-40 h-40 bg-accent/5 rounded-full blur-3xl pointer-events-none" />
+                <div className="relative h-64 md:h-auto overflow-hidden flex items-center justify-center bg-surface-lighter/50">
+                  {/* Decorative elements */}
+                  <div className="absolute top-6 right-6 w-24 h-24 bg-accent/10 rounded-full blur-2xl" />
+                  <div className="absolute bottom-6 left-6 w-20 h-20 bg-cyan/10 rounded-full blur-2xl" />
+                  <div className="absolute inset-0 opacity-[0.03]" style={{backgroundImage: 'radial-gradient(circle, #6366f1 1px, transparent 1px)', backgroundSize: '20px 20px'}} />
+                  <div className="relative z-10 flex flex-col items-center gap-4 p-8">
+                    <div className="text-4xl font-bold gradient-text opacity-30">
+                      {project.name.split("–")[0].trim().split(" ").map(w => w[0]).join("")}
+                    </div>
+                    {project.tech && (
+                      <div className="flex flex-wrap justify-center gap-2">
+                        {project.tech.map((t, i) => (
+                          <span key={i} className="px-2.5 py-1 rounded-full text-[10px] font-mono text-accent/70 bg-accent/5 border border-accent/10">
+                            {t}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </div>
               )}
 
               {/* Content */}
-              <div className={`p-8 flex flex-col justify-center ${!project.image ? "py-12" : ""}`}>
+              <div className="p-8 flex flex-col justify-center">
                 <span className="text-accent font-mono text-xs uppercase tracking-widest mb-3">
                   Featured Project
                 </span>

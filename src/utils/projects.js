@@ -14,6 +14,7 @@ export const projects = [
     github: "https://github.com/Chakit22/TeachTeam",
     description:
       "Full-stack tutor assignment platform for RMIT with role-based auth, JWT, Gemini AI for candidate ranking and resume insights, and a GraphQL admin API with reporting dashboards.",
+    tech: ["Next.js", "GraphQL", "Express", "Gemini AI", "TypeORM", "MySQL"],
     featured: true,
   },
   {
@@ -21,6 +22,7 @@ export const projects = [
     github: "https://github.com/Chakit22/medico-legal-rag",
     description:
       "RAG pipeline for medico-legal reports using LangGraph and FastAPI. Features a query router selecting between three retrieval strategies, reducing irrelevant data retrieval by 75%.",
+    tech: ["LangGraph", "LangChain", "FastAPI", "Python", "RAG"],
     featured: true,
   },
   {
