@@ -8,7 +8,7 @@ const experiences = [
     period: "Aug 2025 - Present",
     location: "Melbourne, VIC",
     highlights: [
-      "Implemented AI voice agents enabling 24/7 automated customer interactions, reducing manual handling by 80%.",
+      "Implemented AI voice agents for 24/7 automated customer interactions, reducing manual handling by 80%.",
       "Built internal tools, dashboards, and onboarding flows to streamline operations and improve team productivity.",
       "Developed and maintained complex n8n workflows, enabling end-to-end automation.",
     ],
