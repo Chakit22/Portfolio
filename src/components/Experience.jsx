@@ -8,9 +8,8 @@ const experiences = [
     period: "Aug 2025 - Present",
     location: "Melbourne, VIC",
     highlights: [
-      "Implemented AI voice agents for 24/7 automated customer interactions, reducing manual handling by 80%.",
-      "Built internal tools, dashboards, and onboarding flows to streamline operations and improve team productivity.",
-      "Developed and maintained complex n8n workflows, enabling end-to-end automation.",
+      "Built automation systems, internal dashboards, and operational tooling to support AI voice agent deployments, improving team productivity and reducing manual handling by 80%.",
+      "Automated end-to-end agent provisioning pipeline, scraping client websites, configuring AI agents, and provisioning telephony/phone numbers — reducing manual setup time by <strong>70%</strong>",
     ],
   },
   {
@@ -50,10 +49,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div
-      name="Experience"
-      className="w-full bg-surface py-24 relative"
-    >
+    <div name="Experience" className="w-full bg-surface py-24 relative">
       <div className="max-w-[1100px] mx-auto px-6 md:px-12">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -117,7 +113,12 @@ const Experience = () => {
                         className="flex items-start text-sm text-gray-400 leading-relaxed"
                       >
                         <span className="text-accent mr-3 mt-1.5 flex-shrink-0">
-                          <svg width="6" height="6" viewBox="0 0 6 6" fill="currentColor">
+                          <svg
+                            width="6"
+                            height="6"
+                            viewBox="0 0 6 6"
+                            fill="currentColor"
+                          >
                             <rect width="6" height="6" rx="1" />
                           </svg>
                         </span>
