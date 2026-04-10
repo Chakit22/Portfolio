@@ -9,7 +9,7 @@ const experiences = [
     location: "Melbourne, VIC",
     highlights: [
       "Built automation systems, internal dashboards, and operational tooling to support AI voice agent deployments, improving team productivity and reducing manual handling by 80%.",
-      "Automated end-to-end agent provisioning pipeline, scraping client websites, configuring AI agents, and provisioning telephony/phone numbers — reducing manual setup time by <strong>70%</strong>",
+      "Automated end-to-end agent provisioning pipeline, scraping client websites, configuring AI agents, and provisioning telephony/phone numbers — reducing manual setup time by 70%.",
     ],
   },
   {
