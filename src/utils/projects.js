@@ -18,6 +18,15 @@ export const projects = [
     featured: true,
   },
   {
+    name: "indi for Clinicians – Care-Journey RAG",
+    demo: "https://indi-rag-demo.vercel.app",
+    github: "https://github.com/Chakit22/indi-rag-demo",
+    description:
+      "Clinician-side briefing layer for paediatric care journeys. Query router classifies intent and forces source diversity across parent logs, specialist letters, therapy notes, and school emails — with grounded citations and three automated evals (source coverage, citation grounding, p95 latency).",
+    tech: ["FastAPI", "ChromaDB", "OpenAI", "Next.js", "RAG"],
+    featured: true,
+  },
+  {
     name: "Medico-Legal RAG System",
     github: "https://github.com/Chakit22/medico-legal-rag",
     description:
