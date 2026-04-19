@@ -1,5 +1,14 @@
 export const projects = [
   {
+    name: "indi for Clinicians – Care-Journey RAG",
+    demo: "https://indi-rag-demo.vercel.app",
+    github: "https://github.com/Chakit22/indi-rag-demo",
+    description:
+      "Clinician-side briefing layer for paediatric care journeys. Query router classifies intent and forces source diversity across parent logs, specialist letters, therapy notes, and school emails — with grounded citations and three automated evals (source coverage, citation grounding, p95 latency).",
+    tech: ["FastAPI", "ChromaDB", "OpenAI", "Next.js", "RAG"],
+    featured: true,
+  },
+  {
     name: "Forge – AI Learning Assistant",
     demo: "https://forge-zeta.vercel.app/",
     github: "https://github.com/Chakit22/forge",
@@ -15,15 +24,6 @@ export const projects = [
     description:
       "Full-stack tutor assignment platform for RMIT with role-based auth, JWT, Gemini AI for candidate ranking and resume insights, and a GraphQL admin API with reporting dashboards.",
     tech: ["Next.js", "GraphQL", "Express", "Gemini AI", "TypeORM", "MySQL"],
-    featured: true,
-  },
-  {
-    name: "indi for Clinicians – Care-Journey RAG",
-    demo: "https://indi-rag-demo.vercel.app",
-    github: "https://github.com/Chakit22/indi-rag-demo",
-    description:
-      "Clinician-side briefing layer for paediatric care journeys. Query router classifies intent and forces source diversity across parent logs, specialist letters, therapy notes, and school emails — with grounded citations and three automated evals (source coverage, citation grounding, p95 latency).",
-    tech: ["FastAPI", "ChromaDB", "OpenAI", "Next.js", "RAG"],
     featured: true,
   },
   {
