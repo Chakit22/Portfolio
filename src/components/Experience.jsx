@@ -5,7 +5,7 @@ const experiences = [
   {
     title: "AI Engineer",
     company: "Heya Voice AI",
-    period: "Aug 2025 - Present",
+    period: "Aug 2025 - Apr 2026",
     location: "Melbourne, VIC",
     highlights: [
       "Built automation systems, internal dashboards, and operational tooling to support AI voice agent deployments, improving team productivity and reducing manual handling by 80%.",
