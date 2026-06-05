@@ -126,6 +126,30 @@
   line-height: 1.5;
 }
 
+.myworks-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.myworks-card-link {
+  color: #fff;
+  border: 1px solid rgba(194, 164, 255, 0.36);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 13px;
+  line-height: 1;
+  text-decoration: none;
+  background: rgba(194, 164, 255, 0.08);
+  transition: 0.25s ease;
+}
+
+.myworks-card-link:hover {
+  border-color: var(--accentColor);
+  background: rgba(194, 164, 255, 0.16);
+}
+
 /* Responsive */
 @media only screen and (max-width: 768px) {
   .myworks-page {

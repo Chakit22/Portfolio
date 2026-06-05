@@ -79,7 +79,33 @@ const Work = () => {
                 <h4>Tools and features</h4>
                 <p>{project.technologies}</p>
               </div>
-              <WorkImage image={project.image} alt={project.title} link={project.link || project.github} />
+              <div className="work-actions">
+                {project.demo && (
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-cursor="disable"
+                  >
+                    Demo
+                  </a>
+                )}
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-cursor="disable"
+                  >
+                    GitHub
+                  </a>
+                )}
+              </div>
+              <WorkImage
+                image={project.image}
+                alt={project.title}
+                link={project.demo || project.github}
+              />
             </div>
           ))}
           {/* See All Works Button */}

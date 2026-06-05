@@ -79,7 +79,8 @@ export const config = {
       title: "Atlas",
       category: "AI Assistant",
       technologies: "LiveKit, TypeScript, Python, Node.js, React, Realtime AI",
-      image: "/assets/portfolio.png",
+      image: "/assets/atlas.png",
+      github: "https://github.com/Chakit22/personal-assistant",
       description:
         "A personal assistant built on top of LiveKit, designed for realtime voice interaction, tool use, and practical day-to-day automation.",
     },
@@ -88,7 +89,7 @@ export const config = {
       title: "Medico-Legal RAG System",
       category: "AI / RAG",
       technologies: "LangGraph, LangChain, FastAPI, Python, RAG",
-      image: "/assets/library-management-system.png",
+      image: "/assets/medico-legal-rag.png",
       github: "https://github.com/Chakit22/medico-legal-rag",
       description:
         "RAG pipeline for medico-legal reports using LangGraph and FastAPI, with a query router selecting between retrieval strategies to reduce irrelevant data retrieval.",
@@ -98,9 +99,9 @@ export const config = {
       title: "StaffIQ",
       category: "Full Stack / AI",
       technologies: "Next.js, GraphQL, Express, Gemini AI, TypeORM, MySQL",
-      image: "/assets/forge.png",
-      link: "https://teach-team.vercel.app",
-      github: "https://github.com/Chakit22/TeachTeam",
+      image: "/assets/staffiq.png",
+      demo: "https://teach-team.vercel.app",
+      github: "https://github.com/Chakit22/StaffIQ",
       description:
         "Tutor assignment platform for RMIT with role-based auth, JWT, Gemini AI candidate ranking, candidate insights, and GraphQL admin reporting dashboards.",
     },
