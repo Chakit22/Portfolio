@@ -10,6 +10,7 @@ import WhatIDo from "./WhatIDo";
 import Work from "./Work";
 import TechStackNew from "./TechStackNew";
 import CallToAction from "./CallToAction";
+import CurrentlyBuilding from "./CurrentlyBuilding";
 import setSplitText from "./utils/splitText";
 
 const MainContainer = ({ children }: PropsWithChildren) => {
@@ -42,6 +43,7 @@ const MainContainer = ({ children }: PropsWithChildren) => {
         <WhatIDo />
         <Career />
         <Work />
+        <CurrentlyBuilding />
         <TechStackNew />
         <CallToAction />
         <Contact />

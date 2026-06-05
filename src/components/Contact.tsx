@@ -111,15 +111,6 @@ const Contact = () => {
             >
               LeetCode <MdArrowOutward />
             </a>
-            <a
-              href={config.contact.resume}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Resume <MdArrowOutward />
-            </a>
           </div>
           <div className="contact-box">
             <h2>

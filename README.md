@@ -28,8 +28,9 @@ npm run build
 
 ## Environment
 
-The optional `/play` chat API uses Groq:
+The optional `/play` chat API uses Anthropic:
 
 ```bash
-GROQ_API_KEY=your_groq_api_key_here
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+ANTHROPIC_MODEL=claude-3-5-haiku-latest
 ```

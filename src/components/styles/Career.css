@@ -60,10 +60,13 @@
 }
 
 .career-info h3 {
-  font-size: 48px;
+  font-size: 24px;
   margin: 0;
   font-weight: 500;
-  line-height: 45px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.86);
+  max-width: 150px;
+  text-align: right;
 }
 
 .career-info h4 {
@@ -160,7 +163,8 @@
   }
 
   .career-info h3 {
-    font-size: 40px;
+    font-size: 20px;
+    line-height: 24px;
   }
 
   .career-info-box p {
@@ -184,7 +188,8 @@
   }
 
   .career-info h3 {
-    font-size: 36px;
+    font-size: 19px;
+    line-height: 23px;
   }
 
   .career-info h4 {
@@ -199,7 +204,8 @@
   }
 
   .career-info h3 {
-    font-size: 38px;
+    font-size: 20px;
+    line-height: 24px;
   }
 }
 
@@ -252,7 +258,9 @@
   }
 
   .career-info h3 {
-    font-size: 33px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
   }
 
   .career-info-in,
