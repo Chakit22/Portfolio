@@ -3,9 +3,9 @@ export const config = {
     name: "Chakit",
     fullName: "Chakit Bhandari",
     initials: "CB",
-    title: "AI Full Stack Developer",
+    title: "AI Engineer and Full-Stack Engineer",
     description:
-      "AI Full Stack Developer building intelligent, scalable products across voice AI agents, RAG systems, serverless platforms, and modern web applications.",
+      "AI Engineer and Full-Stack Engineer building production AI systems across voice agents, automation, fintech pricing infrastructure, and serverless platforms.",
   },
   social: {
     github: "Chakit22",
@@ -15,62 +15,80 @@ export const config = {
   about: {
     title: "About Me",
     description:
-      "I am an AI Full Stack Developer focused on creating impactful, high-performance applications. I have worked on AI-powered voice agents, crypto pricing engines, RAG pipelines, and full-stack systems using Next.js, React, AWS, GraphQL, FastAPI, and LLMs. I care about building intelligent software that is useful, reliable, and polished.",
+      "I am an AI Engineer and Full-Stack Engineer based in Melbourne, working across TypeScript, Python, AWS, React, Next.js, Node.js, Flutter, LangGraph, vector databases, SIP/telephony workflows, and automation tooling. Recent work includes AI voice-agent deployment systems, automated agent provisioning, fintech crypto pricing infrastructure across 20+ digital assets, and PDF/image-processing workloads optimized by 96%. I completed a Master of Information Technology at RMIT University and hold a Bachelor of Engineering from KLE Technological University.",
   },
   experiences: [
     {
       position: "AI Engineer",
-      company: "Heya Voice AI",
-      period: "Aug 2025 - Apr 2026",
+      company: "heya AI",
+      period: "September 2025 - April 2026",
       location: "Melbourne, VIC",
       description:
-        "Built automation systems, internal dashboards, and operational tooling for AI voice agent deployments, improving team productivity and reducing manual handling by 80%.",
+        "Built AI voice agents and deployment tooling, including agent configuration workflows, internal dashboards, and operational systems, improving team productivity and reducing manual handling by 80%.",
       responsibilities: [
-        "Automated end-to-end agent provisioning from client website scraping to agent and telephony setup",
+        "Configured SIP trunking and telephony setup for AI voice-agent deployments, including phone number provisioning, call-routing workflows, and voice infrastructure coordination",
+        "Automated end-to-end agent provisioning by scraping client websites, preparing agent knowledge and configuration, and connecting deployment workflows",
         "Reduced manual setup time by 70% through provisioning pipelines and internal tooling",
       ],
-      technologies: ["AI Agents", "Automation", "Voice AI", "Dashboards", "Telephony"],
-    },
-    {
-      position: "Software Developer Intern",
-      company: "Digital Asset Custody Solutions Pty Ltd.",
-      period: "Jul 2025 - Oct 2025",
-      location: "Melbourne, VIC",
-      description:
-        "Designed and built the architecture for a crypto pricing engine on AWS, supporting real-time pricing for more than 20 digital assets.",
-      responsibilities: [
-        "Integrated 5+ external market data providers for reliable, low-latency pricing",
-        "Built serverless pipelines using API Gateway, AWS Lambda, and RDS",
-        "Reduced infrastructure overhead by 45% while maintaining 99.9% availability",
-      ],
-      technologies: ["AWS", "Lambda", "API Gateway", "RDS", "Market Data"],
+      technologies: ["AI Agents", "Voice AI", "SIP", "Telephony", "Automation"],
     },
     {
       position: "Software Engineer",
-      company: "Film Never Die",
-      period: "Aug 2024 - Feb 2025",
+      company: "Digital Asset Custody Solutions Pty Ltd.",
+      period: "July 2025 - October 2025",
       location: "Melbourne, VIC",
       description:
-        "Worked on a SaaS product helping clients save up to $30,000 annually and built fast media delivery workflows for customer image access.",
+        "Designed a fintech crypto pricing engine on AWS for 20+ digital assets.",
       responsibilities: [
-        "Developed a Flutter mobile app for fast, user-friendly image access",
-        "Hosted 5MB to 50MB images on CloudFront CDN for efficient delivery",
+        "Integrated 5+ market data providers via API calls for reliable, low-latency pricing",
+        "Built serverless pipelines with AWS Lambda and RDS",
+        "Cut infrastructure costs by 45%",
       ],
-      technologies: ["Flutter", "AWS CloudFront", "SaaS", "Mobile"],
+      technologies: ["AWS", "Lambda", "RDS", "SQL", "Market Data APIs"],
+    },
+    {
+      position: "Full Stack AI Engineer",
+      company: "FilmNeverDie",
+      period: "March 2024 - August 2025",
+      location: "Melbourne, VIC",
+      description:
+        "Developed a Flutter mobile app and AWS-backed media platform that replaced Dropbox workflows and gave customers faster access to digital images.",
+      responsibilities: [
+        "Built customer image features for downloads, favorites, prints, and collections",
+        "Designed AWS infrastructure with DynamoDB, S3, EC2 image processing, and CloudFront delivery for 5MB-50MB image files",
+        "Replaced Synology CloudSync with rsync-based transfers to EC2, automated S3 syncing after processing, and updated DynamoDB records by customer order",
+        "Built customer gallery websites in Next.js and integrated Shopify OAuth for seamless redirection on the same domain",
+      ],
+      technologies: ["Flutter", "Next.js", "AWS", "DynamoDB", "S3", "CloudFront"],
     },
     {
       position: "Software Developer",
       company: "Fresh Prints",
-      period: "Jun 2023 - Aug 2023",
+      period: "January 2023 - February 2024",
       location: "Remote",
       description:
-        "Developed customer portal features, built a PDF image extraction API, and migrated services to serverless AWS Lambda architecture.",
+        "Built Customer Portal features and PDF image parsing services for internal processing workflows.",
       responsibilities: [
-        "Enabled direct client ordering through customer portal features",
-        "Reduced costs by 96% by moving PDF extraction workloads to AWS Lambda",
-        "Containerized services using Docker to improve scalability and reduce OS dependencies",
+        "Designed and implemented an Express API in TypeScript to parse required images from PDF files, reducing processing costs by 96%",
+        "Containerized image parsing services with Docker, removing OS-level dependency issues across development environments",
+        "Developed Customer Portal features that enabled clients to place direct orders and improved the ordering workflow",
+        "Implemented product feedback features, worked across Agile sprints in Jira, practiced TDD, and participated in regular pull request reviews",
       ],
-      technologies: ["AWS Lambda", "Docker", "APIs", "Customer Portal"],
+      technologies: ["TypeScript", "Express", "Docker", "PDF Processing", "Customer Portal"],
+    },
+    {
+      position: "Open Source Developer Intern",
+      company: "TUBLIAN",
+      period: "December 2023 - January 2024",
+      location: "Remote",
+      description:
+        "Contributed to open-source projects, including timezone support for global contest timing views.",
+      responsibilities: [
+        "Participated in weekly check-in calls and contributed to open-source project delivery",
+        "Built timezone support in JavaScript so users could view contest timings in their local timezone",
+        "Linked contest timing views to timeanddate.com and resolved project bugs",
+      ],
+      technologies: ["JavaScript", "Open Source", "Bug Fixes"],
     },
   ],
   projects: [
@@ -125,15 +143,15 @@ export const config = {
       title: "LANGUAGES",
       description: "Core programming languages I use",
       details:
-        "Working across systems, backend, AI, and frontend code with a focused set of languages.",
-      tools: ["C", "C++", "TypeScript", "JavaScript", "Python"],
+        "Working across backend, AI, automation, and frontend code with a focused production language set.",
+      tools: ["TypeScript", "Python", "JavaScript", "C", "C++"],
     },
     design: {
-      title: "STACK",
-      description: "Tools and platforms I build with",
+      title: "AI + CLOUD STACK",
+      description: "Tools and platforms I build production systems with",
       details:
-        "Building full-stack applications, cloud systems, and AI products with a practical production stack.",
-      tools: ["Node", "Next", "React", "PostgreSQL", "AWS", "Git", "GitHub", "Docker"],
+        "Building voice agents, RAG systems, serverless backends, data pipelines, and full-stack products.",
+      tools: ["React", "Next.js", "Node.js", "AWS", "Lambda", "RDS", "DynamoDB", "S3", "CloudFront", "LangGraph", "RAG", "Vector DBs", "SIP", "Docker"],
     },
   },
 };

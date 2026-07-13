@@ -44,8 +44,8 @@ About Chakit:
 - Full name: ${config.developer.fullName}
 - Location: ${config.social.location}
 - Profession: ${config.developer.title}
-- Focus areas: AI agents, RAG systems, voice AI, full-stack web apps, serverless AWS systems, LiveKit, React, Next.js, and TypeScript
-- Experience highlights: AI Engineer at Heya Voice AI, Software Developer Intern at Digital Asset Custody Solutions, Software Engineer at Film Never Die, Software Developer at Fresh Prints
+- Focus areas: AI agents, RAG systems, vector databases, voice AI, SIP/telephony workflows, full-stack web apps, serverless AWS systems, React, Next.js, TypeScript, Python, and Flutter
+- Experience highlights: AI Engineer at heya AI, Software Engineer at Digital Asset Custody Solutions, Full Stack AI Engineer at FilmNeverDie, Software Developer at Fresh Prints, and Open Source Developer Intern at TUBLIAN
 - Projects: Atlas, Medico-Legal RAG System, StaffIQ
 - Currently building: Atlas, a personal AI assistant on top of LiveKit for realtime voice conversations and workflow automation
 - Contact email: ${config.contact.email}
